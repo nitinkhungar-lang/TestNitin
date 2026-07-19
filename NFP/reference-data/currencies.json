@@ -1,0 +1,72 @@
+[
+  {
+    "code": "INR",
+    "name": "Indian Rupee",
+    "symbol": "\u20b9",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "USD",
+    "name": "US Dollar",
+    "symbol": "$",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "EUR",
+    "name": "Euro",
+    "symbol": "\u20ac",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "GBP",
+    "name": "British Pound",
+    "symbol": "\u00a3",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "JPY",
+    "name": "Japanese Yen",
+    "symbol": "\u00a5",
+    "decimal_places": 0,
+    "is_active": true
+  },
+  {
+    "code": "SGD",
+    "name": "Singapore Dollar",
+    "symbol": "S$",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "AED",
+    "name": "UAE Dirham",
+    "symbol": "AED",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "CAD",
+    "name": "Canadian Dollar",
+    "symbol": "C$",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "AUD",
+    "name": "Australian Dollar",
+    "symbol": "A$",
+    "decimal_places": 2,
+    "is_active": true
+  },
+  {
+    "code": "CHF",
+    "name": "Swiss Franc",
+    "symbol": "CHF",
+    "decimal_places": 2,
+    "is_active": true
+  }
+]

@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Exclude raw and extracted PII/financial data)
+data/
+nfp.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs and environments
+.vscode/
+.idea/
+*.swp
+
+# Reports/Artifacts that might contain PII
+*.md

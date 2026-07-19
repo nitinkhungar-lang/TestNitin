@@ -1,0 +1,188 @@
+[
+  {
+    "code": "CASH_DEBIT",
+    "name": "Cash Debit",
+    "direction": "DEBIT",
+    "category": "CASH"
+  },
+  {
+    "code": "CASH_CREDIT",
+    "name": "Cash Credit",
+    "direction": "CREDIT",
+    "category": "CASH"
+  },
+  {
+    "code": "ASSET_INCREASE",
+    "name": "Asset Increase",
+    "direction": "CREDIT",
+    "category": "ASSET"
+  },
+  {
+    "code": "ASSET_DECREASE",
+    "name": "Asset Decrease",
+    "direction": "DEBIT",
+    "category": "ASSET"
+  },
+  {
+    "code": "LIABILITY_INCREASE",
+    "name": "Liability Increase",
+    "direction": "CREDIT",
+    "category": "LIABILITY"
+  },
+  {
+    "code": "LIABILITY_DECREASE",
+    "name": "Liability Decrease",
+    "direction": "DEBIT",
+    "category": "LIABILITY"
+  },
+  {
+    "code": "BROKERAGE",
+    "name": "Brokerage",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "STT",
+    "name": "Securities Transaction Tax",
+    "direction": "DEBIT",
+    "category": "TAX"
+  },
+  {
+    "code": "STAMP_DUTY",
+    "name": "Stamp Duty",
+    "direction": "DEBIT",
+    "category": "TAX"
+  },
+  {
+    "code": "GST",
+    "name": "GST",
+    "direction": "DEBIT",
+    "category": "TAX"
+  },
+  {
+    "code": "SEBI_FEE",
+    "name": "SEBI Turnover Fee",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "EXCHANGE_FEE",
+    "name": "Exchange Transaction Charge",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "TDS",
+    "name": "Tax Deducted at Source",
+    "direction": "DEBIT",
+    "category": "TAX"
+  },
+  {
+    "code": "DIVIDEND_INCOME",
+    "name": "Dividend Income",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "INTEREST_INCOME",
+    "name": "Interest Income",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "CAPITAL_GAIN_ST",
+    "name": "Short-Term Capital Gain",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "CAPITAL_GAIN_LT",
+    "name": "Long-Term Capital Gain",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "CAPITAL_LOSS_ST",
+    "name": "Short-Term Capital Loss",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "CAPITAL_LOSS_LT",
+    "name": "Long-Term Capital Loss",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "RENTAL_INCOME",
+    "name": "Rental Income",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "SALARY_INCOME",
+    "name": "Salary Income",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "BONUS_INCOME",
+    "name": "Bonus Income",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "LOAN_PRINCIPAL",
+    "name": "Loan Principal Payment",
+    "direction": "DEBIT",
+    "category": "CASH"
+  },
+  {
+    "code": "LOAN_INTEREST",
+    "name": "Loan Interest Payment",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "INSURANCE_PREMIUM",
+    "name": "Insurance Premium",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "BONUS_SHARES",
+    "name": "Bonus Shares Received",
+    "direction": "CREDIT",
+    "category": "ASSET"
+  },
+  {
+    "code": "RIGHTS_SHARES",
+    "name": "Rights Shares Received",
+    "direction": "CREDIT",
+    "category": "ASSET"
+  },
+  {
+    "code": "SPLIT_ADJUSTMENT",
+    "name": "Split/Consolidation Adjustment",
+    "direction": "BOTH",
+    "category": "ASSET"
+  },
+  {
+    "code": "CURRENCY_GAIN",
+    "name": "Forex Gain",
+    "direction": "CREDIT",
+    "category": "INCOME"
+  },
+  {
+    "code": "CURRENCY_LOSS",
+    "name": "Forex Loss",
+    "direction": "DEBIT",
+    "category": "EXPENSE"
+  },
+  {
+    "code": "REVERSAL",
+    "name": "Reversal Event",
+    "direction": "BOTH",
+    "category": "REVERSAL"
+  }
+]

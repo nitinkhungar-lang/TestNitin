@@ -1,0 +1,50 @@
+[
+  {
+    "code": "DEMAT",
+    "name": "Demat Account"
+  },
+  {
+    "code": "TRADING",
+    "name": "Trading Account"
+  },
+  {
+    "code": "SAVINGS",
+    "name": "Savings Bank Account"
+  },
+  {
+    "code": "CURRENT",
+    "name": "Current Account"
+  },
+  {
+    "code": "LOAN",
+    "name": "Loan Account"
+  },
+  {
+    "code": "CREDIT_CARD",
+    "name": "Credit Card"
+  },
+  {
+    "code": "PPF",
+    "name": "PPF Account"
+  },
+  {
+    "code": "NPS",
+    "name": "NPS Account"
+  },
+  {
+    "code": "EPF",
+    "name": "EPF Account"
+  },
+  {
+    "code": "FD",
+    "name": "Fixed Deposit Account"
+  },
+  {
+    "code": "RD",
+    "name": "Recurring Deposit Account"
+  },
+  {
+    "code": "WALLET",
+    "name": "Digital Wallet"
+  }
+]

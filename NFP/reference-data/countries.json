@@ -1,0 +1,52 @@
+[
+  {
+    "code": "IN",
+    "name": "India",
+    "currency_code": "INR"
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "currency_code": "USD"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "currency_code": "GBP"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "currency_code": "SGD"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "currency_code": "AED"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "currency_code": "JPY"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "currency_code": "EUR"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "currency_code": "CAD"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "currency_code": "AUD"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "currency_code": "CHF"
+  }
+]

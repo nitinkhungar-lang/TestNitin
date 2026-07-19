@@ -1,0 +1,15 @@
+jurisdiction: IN
+rules:
+  holding_period_rules:
+    - asset_types: ["EQUITY_IN", "MF_EQUITY"]
+      long_term_threshold_months: 12
+    - asset_types: ["MF_DEBT"]
+      condition: "acquisition_date < '2023-04-01'"
+      long_term_threshold_months: 36
+    - asset_types: ["MF_DEBT"]
+      condition: "acquisition_date >= '2023-04-01'"
+      long_term_threshold_months: 999999
+    - asset_types: ["REAL_ESTATE", "GOLD_PHYSICAL", "BOND_UNLISTED", "EQUITY_US"]
+      long_term_threshold_months: 24
+    - asset_types: ["BOND_LISTED"]
+      long_term_threshold_months: 12

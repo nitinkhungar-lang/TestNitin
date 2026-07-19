@@ -1,0 +1,560 @@
+[
+  {
+    "code": "EQUITY_BUY",
+    "name": "Equity Buy",
+    "category": "EQUITY",
+    "description": "Equity Buy transaction",
+    "event_template_key": "EQUITY_BUY_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_SELL",
+    "name": "Equity Sell",
+    "category": "EQUITY",
+    "description": "Equity Sell transaction",
+    "event_template_key": "EQUITY_SELL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_BONUS",
+    "name": "Equity Bonus Issue",
+    "category": "EQUITY",
+    "description": "Equity Bonus Issue transaction",
+    "event_template_key": "EQUITY_BONUS_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_RIGHTS_ISSUE",
+    "name": "Equity Rights Issue",
+    "category": "EQUITY",
+    "description": "Equity Rights Issue transaction",
+    "event_template_key": "EQUITY_RIGHTS_ISSUE_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_SPLIT",
+    "name": "Equity Stock Split",
+    "category": "EQUITY",
+    "description": "Equity Stock Split transaction",
+    "event_template_key": "EQUITY_SPLIT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_CONSOLIDATION",
+    "name": "Equity Consolidation",
+    "category": "EQUITY",
+    "description": "Equity Consolidation transaction",
+    "event_template_key": "EQUITY_CONSOLIDATION_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_DIVIDEND",
+    "name": "Equity Dividend",
+    "category": "EQUITY",
+    "description": "Equity Dividend transaction",
+    "event_template_key": "EQUITY_DIVIDEND_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_SPINOFF",
+    "name": "Equity Spinoff",
+    "category": "EQUITY",
+    "description": "Equity Spinoff transaction",
+    "event_template_key": "EQUITY_SPINOFF_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_MERGER",
+    "name": "Equity Merger",
+    "category": "EQUITY",
+    "description": "Equity Merger transaction",
+    "event_template_key": "EQUITY_MERGER_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_DELISTING",
+    "name": "Equity Delisting",
+    "category": "EQUITY",
+    "description": "Equity Delisting transaction",
+    "event_template_key": "EQUITY_DELISTING_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_IPO_ALLOTMENT",
+    "name": "IPO Allotment",
+    "category": "EQUITY",
+    "description": "IPO Allotment transaction",
+    "event_template_key": "EQUITY_IPO_ALLOTMENT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EQUITY_IPO_REFUND",
+    "name": "IPO Refund",
+    "category": "EQUITY",
+    "description": "IPO Refund transaction",
+    "event_template_key": "EQUITY_IPO_REFUND_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_BUY",
+    "name": "Mutual Fund Buy",
+    "category": "MF",
+    "description": "Mutual Fund Buy transaction",
+    "event_template_key": "MF_BUY_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_SELL",
+    "name": "Mutual Fund Sell",
+    "category": "MF",
+    "description": "Mutual Fund Sell transaction",
+    "event_template_key": "MF_SELL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_SWITCH_OUT",
+    "name": "MF Switch Out",
+    "category": "MF",
+    "description": "MF Switch Out transaction",
+    "event_template_key": "MF_SWITCH_OUT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_SWITCH_IN",
+    "name": "MF Switch In",
+    "category": "MF",
+    "description": "MF Switch In transaction",
+    "event_template_key": "MF_SWITCH_IN_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_DIVIDEND_PAYOUT",
+    "name": "MF Dividend Payout",
+    "category": "MF",
+    "description": "MF Dividend Payout transaction",
+    "event_template_key": "MF_DIVIDEND_PAYOUT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_DIVIDEND_REINVEST",
+    "name": "MF Dividend Reinvest",
+    "category": "MF",
+    "description": "MF Dividend Reinvest transaction",
+    "event_template_key": "MF_DIVIDEND_REINVEST_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_MERGER",
+    "name": "MF Merger",
+    "category": "MF",
+    "description": "MF Merger transaction",
+    "event_template_key": "MF_MERGER_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_SEGREGATION",
+    "name": "MF Segregation",
+    "category": "MF",
+    "description": "MF Segregation transaction",
+    "event_template_key": "MF_SEGREGATION_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_STP_OUT",
+    "name": "MF STP Out",
+    "category": "MF",
+    "description": "MF STP Out transaction",
+    "event_template_key": "MF_STP_OUT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_STP_IN",
+    "name": "MF STP In",
+    "category": "MF",
+    "description": "MF STP In transaction",
+    "event_template_key": "MF_STP_IN_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "MF_SWP",
+    "name": "MF SWP",
+    "category": "MF",
+    "description": "MF SWP transaction",
+    "event_template_key": "MF_SWP_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "FD_OPEN",
+    "name": "FD Open",
+    "category": "FIXED_INCOME",
+    "description": "FD Open transaction",
+    "event_template_key": "FD_OPEN_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "FD_MATURED",
+    "name": "FD Matured",
+    "category": "FIXED_INCOME",
+    "description": "FD Matured transaction",
+    "event_template_key": "FD_MATURED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "FD_BROKEN",
+    "name": "FD Broken",
+    "category": "FIXED_INCOME",
+    "description": "FD Broken transaction",
+    "event_template_key": "FD_BROKEN_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "FD_INTEREST_ACCRUED",
+    "name": "FD Interest Accrued",
+    "category": "FIXED_INCOME",
+    "description": "FD Interest Accrued transaction",
+    "event_template_key": "FD_INTEREST_ACCRUED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "RD_INSTALMENT",
+    "name": "RD Instalment",
+    "category": "FIXED_INCOME",
+    "description": "RD Instalment transaction",
+    "event_template_key": "RD_INSTALMENT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "RD_MATURED",
+    "name": "RD Matured",
+    "category": "FIXED_INCOME",
+    "description": "RD Matured transaction",
+    "event_template_key": "RD_MATURED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "BOND_BUY",
+    "name": "Bond Buy",
+    "category": "FIXED_INCOME",
+    "description": "Bond Buy transaction",
+    "event_template_key": "BOND_BUY_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "BOND_SELL",
+    "name": "Bond Sell",
+    "category": "FIXED_INCOME",
+    "description": "Bond Sell transaction",
+    "event_template_key": "BOND_SELL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "BOND_INTEREST",
+    "name": "Bond Interest",
+    "category": "FIXED_INCOME",
+    "description": "Bond Interest transaction",
+    "event_template_key": "BOND_INTEREST_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "BOND_MATURITY",
+    "name": "Bond Maturity",
+    "category": "FIXED_INCOME",
+    "description": "Bond Maturity transaction",
+    "event_template_key": "BOND_MATURITY_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "PPF_CONTRIBUTION",
+    "name": "PPF Contribution",
+    "category": "FIXED_INCOME",
+    "description": "PPF Contribution transaction",
+    "event_template_key": "PPF_CONTRIBUTION_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "PPF_INTEREST",
+    "name": "PPF Interest",
+    "category": "FIXED_INCOME",
+    "description": "PPF Interest transaction",
+    "event_template_key": "PPF_INTEREST_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "PPF_WITHDRAWAL",
+    "name": "PPF Withdrawal",
+    "category": "FIXED_INCOME",
+    "description": "PPF Withdrawal transaction",
+    "event_template_key": "PPF_WITHDRAWAL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EPF_CONTRIBUTION",
+    "name": "EPF Contribution",
+    "category": "FIXED_INCOME",
+    "description": "EPF Contribution transaction",
+    "event_template_key": "EPF_CONTRIBUTION_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "EPF_WITHDRAWAL",
+    "name": "EPF Withdrawal",
+    "category": "FIXED_INCOME",
+    "description": "EPF Withdrawal transaction",
+    "event_template_key": "EPF_WITHDRAWAL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "NPS_CONTRIBUTION",
+    "name": "NPS Contribution",
+    "category": "FIXED_INCOME",
+    "description": "NPS Contribution transaction",
+    "event_template_key": "NPS_CONTRIBUTION_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "NPS_WITHDRAWAL",
+    "name": "NPS Withdrawal",
+    "category": "FIXED_INCOME",
+    "description": "NPS Withdrawal transaction",
+    "event_template_key": "NPS_WITHDRAWAL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "PROPERTY_BUILDER_PAYMENT",
+    "name": "Property Builder Payment",
+    "category": "REAL_ESTATE",
+    "description": "Property Builder Payment transaction",
+    "event_template_key": "PROPERTY_BUILDER_PAYMENT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "PROPERTY_STAMP_DUTY",
+    "name": "Property Stamp Duty",
+    "category": "REAL_ESTATE",
+    "description": "Property Stamp Duty transaction",
+    "event_template_key": "PROPERTY_STAMP_DUTY_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "PROPERTY_REGISTRATION",
+    "name": "Property Registration",
+    "category": "REAL_ESTATE",
+    "description": "Property Registration transaction",
+    "event_template_key": "PROPERTY_REGISTRATION_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "PROPERTY_SOLD",
+    "name": "Property Sold",
+    "category": "REAL_ESTATE",
+    "description": "Property Sold transaction",
+    "event_template_key": "PROPERTY_SOLD_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "RENTAL_RECEIVED",
+    "name": "Rental Received",
+    "category": "REAL_ESTATE",
+    "description": "Rental Received transaction",
+    "event_template_key": "RENTAL_RECEIVED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "LOAN_DISBURSED",
+    "name": "Loan Disbursed",
+    "category": "LOANS",
+    "description": "Loan Disbursed transaction",
+    "event_template_key": "LOAN_DISBURSED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "LOAN_EMI",
+    "name": "Loan EMI",
+    "category": "LOANS",
+    "description": "Loan EMI transaction",
+    "event_template_key": "LOAN_EMI_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "LOAN_PREPAYMENT",
+    "name": "Loan Prepayment",
+    "category": "LOANS",
+    "description": "Loan Prepayment transaction",
+    "event_template_key": "LOAN_PREPAYMENT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "LOAN_CLOSED",
+    "name": "Loan Closed",
+    "category": "LOANS",
+    "description": "Loan Closed transaction",
+    "event_template_key": "LOAN_CLOSED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "BANK_TRANSFER_OUT",
+    "name": "Bank Transfer Out",
+    "category": "BANKING",
+    "description": "Bank Transfer Out transaction",
+    "event_template_key": "BANK_TRANSFER_OUT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "BANK_TRANSFER_IN",
+    "name": "Bank Transfer In",
+    "category": "BANKING",
+    "description": "Bank Transfer In transaction",
+    "event_template_key": "BANK_TRANSFER_IN_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "CASH_DEPOSIT",
+    "name": "Cash Deposit",
+    "category": "BANKING",
+    "description": "Cash Deposit transaction",
+    "event_template_key": "CASH_DEPOSIT_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "CASH_WITHDRAWAL",
+    "name": "Cash Withdrawal",
+    "category": "BANKING",
+    "description": "Cash Withdrawal transaction",
+    "event_template_key": "CASH_WITHDRAWAL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "SALARY_RECEIVED",
+    "name": "Salary Received",
+    "category": "BANKING",
+    "description": "Salary Received transaction",
+    "event_template_key": "SALARY_RECEIVED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "BONUS_RECEIVED",
+    "name": "Bonus Received",
+    "category": "BANKING",
+    "description": "Bonus Received transaction",
+    "event_template_key": "BONUS_RECEIVED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "INSURANCE_PREMIUM_PAID",
+    "name": "Insurance Premium Paid",
+    "category": "BANKING",
+    "description": "Insurance Premium Paid transaction",
+    "event_template_key": "INSURANCE_PREMIUM_PAID_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "INSURANCE_CLAIM_RECEIVED",
+    "name": "Insurance Claim Received",
+    "category": "BANKING",
+    "description": "Insurance Claim Received transaction",
+    "event_template_key": "INSURANCE_CLAIM_RECEIVED_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "GOLD_BUY",
+    "name": "Gold Buy",
+    "category": "BANKING",
+    "description": "Gold Buy transaction",
+    "event_template_key": "GOLD_BUY_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "GOLD_SELL",
+    "name": "Gold Sell",
+    "category": "BANKING",
+    "description": "Gold Sell transaction",
+    "event_template_key": "GOLD_SELL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "CRYPTO_BUY",
+    "name": "Crypto Buy",
+    "category": "BANKING",
+    "description": "Crypto Buy transaction",
+    "event_template_key": "CRYPTO_BUY_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "CRYPTO_SELL",
+    "name": "Crypto Sell",
+    "category": "BANKING",
+    "description": "Crypto Sell transaction",
+    "event_template_key": "CRYPTO_SELL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  },
+  {
+    "code": "ACTIVITY_REVERSAL",
+    "name": "Activity Reversal",
+    "category": "GENERAL",
+    "description": "Activity Reversal transaction",
+    "event_template_key": "ACTIVITY_REVERSAL_TEMPLATE",
+    "is_active": true,
+    "schema_version": 1
+  }
+]

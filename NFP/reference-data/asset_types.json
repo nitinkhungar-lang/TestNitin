@@ -1,0 +1,132 @@
+[
+  {
+    "code": "EQUITY_IN",
+    "name": "Indian Listed Equity",
+    "country_code": "IN"
+  },
+  {
+    "code": "EQUITY_US",
+    "name": "US Listed Equity",
+    "country_code": "US"
+  },
+  {
+    "code": "EQUITY_UNLISTED",
+    "name": "Unlisted Equity",
+    "country_code": null
+  },
+  {
+    "code": "MF_EQUITY",
+    "name": "Equity Mutual Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "MF_DEBT",
+    "name": "Debt Mutual Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "MF_HYBRID",
+    "name": "Hybrid Mutual Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "MF_ELSS",
+    "name": "ELSS Tax Saving Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "MF_INDEX",
+    "name": "Index Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "MF_LIQUID",
+    "name": "Liquid Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "ETF_IN",
+    "name": "Indian ETF",
+    "country_code": "IN"
+  },
+  {
+    "code": "ETF_US",
+    "name": "US ETF",
+    "country_code": "US"
+  },
+  {
+    "code": "FD",
+    "name": "Fixed Deposit",
+    "country_code": "IN"
+  },
+  {
+    "code": "RD",
+    "name": "Recurring Deposit",
+    "country_code": "IN"
+  },
+  {
+    "code": "PPF",
+    "name": "Public Provident Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "EPF",
+    "name": "Employee Provident Fund",
+    "country_code": "IN"
+  },
+  {
+    "code": "NPS",
+    "name": "National Pension System",
+    "country_code": "IN"
+  },
+  {
+    "code": "BOND_LISTED",
+    "name": "Listed Bond / Debenture",
+    "country_code": "IN"
+  },
+  {
+    "code": "BOND_UNLISTED",
+    "name": "Unlisted Bond",
+    "country_code": "IN"
+  },
+  {
+    "code": "BOND_SGB",
+    "name": "Sovereign Gold Bond",
+    "country_code": "IN"
+  },
+  {
+    "code": "GOLD_PHYSICAL",
+    "name": "Physical Gold",
+    "country_code": null
+  },
+  {
+    "code": "GOLD_DIGITAL",
+    "name": "Digital Gold",
+    "country_code": "IN"
+  },
+  {
+    "code": "REAL_ESTATE",
+    "name": "Real Estate",
+    "country_code": null
+  },
+  {
+    "code": "CRYPTO",
+    "name": "Cryptocurrency",
+    "country_code": null
+  },
+  {
+    "code": "INSURANCE_ULIP",
+    "name": "ULIP",
+    "country_code": "IN"
+  },
+  {
+    "code": "INSURANCE_ENDOWMENT",
+    "name": "Endowment Plan",
+    "country_code": "IN"
+  },
+  {
+    "code": "CASH",
+    "name": "Cash / Bank Balance",
+    "country_code": null
+  }
+]
